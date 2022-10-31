@@ -1,14 +1,12 @@
 package entities;
 public class Reviews {
     private String userName;
-    private String tittle;
     private String description;
     private Float rating;
     private String movieName;
 
-    public Reviews(String username, String tittle, String description, Float rating, String movieName) {
+    public Reviews(String username String description, Float rating, String movieName) {
         this.userName = username;
-        this.tittle = tittle;
         this.description = description;
         this.rating = rating;
         this.movieName = movieName;
@@ -16,10 +14,6 @@ public class Reviews {
 
     public void setUserName(String username){
         this.userName = username;
-    }
-
-    public void setTittle(String tittle){
-        this.tittle = tittle;
     }
 
     public void setDescription(String description){
@@ -36,10 +30,6 @@ public class Reviews {
 
     public String getUserName(){
         return this.userName;
-    }
-
-    public String getTitle(){
-        return this.tittle;
     }
 
     public String getDescription() {
