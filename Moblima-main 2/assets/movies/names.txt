@@ -1,0 +1,2 @@
+id|movieName|status|duration|totalSale|director
+1;EndGame;NowShowing;3;2000;James
